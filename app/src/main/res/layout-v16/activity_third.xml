@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+    android:background="@drawable/ic_sample">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        tools:ignore="ScrollViewSize">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/delius"
+                android:gravity="center_horizontal"
+                android:text="Are you craving them?"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.062"
+                tools:text="@string/are_you_craving_them"
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:fontFamily="@font/delius"
+                android:gravity="center_horizontal"
+                android:text="Check out their replacement"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.022"
+                tools:text="@string/check_out_their_replacement" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button"
+                android:id="@+id/burger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:background="@drawable/rounded"
+                android:gravity="center"
+                android:text="@string/Burger"
+                android:textColor="#FFFF"
+                android:textSize="24sp"
+                />
+
+            <Button
+                android:id="@+id/pizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:gravity="center"
+                android:text="@string/Pizza"
+                android:textColor="#FFFF"
+                android:textSize="24sp"
+                />
+
+            <Button
+                android:id="@+id/chips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Chips"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/doughnut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Doughtnut"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/burrito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Burrito"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Chocolate"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/hotdogs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hot_dogs"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/cheesecake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Cheesecake"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/coke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Coke"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/nuggets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nuggets"
+                android:textColor="#FFFF"
+                android:layout_marginBottom="60sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

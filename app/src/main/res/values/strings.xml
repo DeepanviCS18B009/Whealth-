@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="are_you_craving_them">Are you craving them?</string>
+    <string name="check_out_their_replacement">Check out their replacement</string>
+    <string name="Burger">Burger and Fries</string>
+    <string name="Pizza">Pizza</string>
+    <string name="Chocolate">Milk Chocolate</string>
+    <string name="Doughtnut">Doughnut</string>
+    <string name="Chips">Chips</string>
+    <string name="hot_dogs">Hot Dogs</string>
+    <string name="Coke">Carbonated Drinks</string>
+    <string name="Cheesecake">Cheesecake</string>
+    <string name="Burrito">Burrito</string>
+    <string name="nuggets">Chicken Nuggets</string>
+
+    <string name="BurgerR">Whole wheat veg burger and potato fries</string>
+    <string name="PizzaR">Whole wheat veg Pizza</string>
+    <string name="ChocolateR">Almond Milk with cocoa powder</string>
+    <string name="DoughtnutR">Homemade Muffins</string>
+    <string name="ChipsR">Baked Chips</string>
+    <string name="hot_dogsR">Veggie Dogs</string>
+    <string name="CokeR">Buttermilk</string>
+    <string name="CheesecakeR">Chia Pudding</string>
+    <string name="BurritoR">Veg Paratha</string>
+    <string name="nuggetsR">Hummus Sandwich</string>
+    <string name="whealth">Whealth</string>
+    <string name="_11">11</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="w_h">W|H</string>
+    <string name="already_in">Already In?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">login</string>
+    <string name="or_click_here_to_register">Or Click Here To Register</string>
+    <string name="arrow"><![CDATA[---->]]></string>
+    <string name="calories">CALORIES</string>
+    <string name="cost">COST</string>
+    <string name="compare_2_cs">Compare 2 Cs</string>
+    <string name="fats">FATS</string>
+</resources>
